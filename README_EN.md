@@ -367,6 +367,8 @@ https://ark.cwuom.love/get_btn_card?prompt=Display&preview=https://api.lyhc.top/
   }
 ```
 
+----
+
 # Interface Availability Test Code
 ```python
 import requests
