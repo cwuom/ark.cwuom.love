@@ -18,8 +18,11 @@
 - Interface URL: `https://ark.cwuom.love`
 - Currently in testing and fully open, long-term availability is not guaranteed, and interface authentication may be added in the future.
 
-## Usage Instructions
-### 1. Large Image ARK Card (`/get_card`)
+----
+
+
+# Usage Instructions
+## 1. Large Image ARK Card (`/get_card`)
 
 - **Interface Path:** `/get_card`
 - **Request Methods:** POST / GET
@@ -73,7 +76,7 @@ https://ark.cwuom.love/get_card?title=Title&subtitle=Subtitle&prompt=Card Displa
   }
 ```
 
-### 2. Share Type ARK Card (`/get_card_news`)
+## 2. Share Type ARK Card (`/get_card_news`)
 
 - **Interface Path:** `/get_card_news`
 - **Request Methods:** POST / GET
@@ -140,7 +143,7 @@ https://ark.cwuom.love/get_card_news?desc=Card description&preview=https://api.l
   }
 ```
 
-### 3. Embed Card (`/get_card_embed`)
+## 3. Embed Card (`/get_card_embed`)
 
 - **Interface Path:** `/get_card_embed`
 - **Request Methods:** POST / GET
@@ -207,7 +210,7 @@ https://ark.cwuom.love/get_card_embed?title=Embed card title&prompt=Display&thum
   }
 ```
 
-### 4. Miniapp ARK Card (`/get_miniapp_card`)
+## 4. Miniapp ARK Card (`/get_miniapp_card`)
 
 - **Interface Path:** `/get_miniapp_card`
 - **Request Methods:** POST / GET
@@ -285,7 +288,7 @@ https://ark.cwuom.love/get_miniapp_card?prompt=Display&jumpUrl=https://api.lyhc.
   }
 ```
 
-### 5. Button Card (`/get_btn_card`)
+## 5. Button Card (`/get_btn_card`)
 
 - **Interface Path:** `/get_btn_card`
 - **Request Methods:** POST / GET
