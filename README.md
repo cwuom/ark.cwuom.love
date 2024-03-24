@@ -12,13 +12,14 @@
   **&gt; 简体中文 &lt;** | [English](README_EN.md)
 </div>
 
-## 接口信息
+# 接口信息
 ### 本文档提供了ARK消息生成接口的详细说明，支持通过POST和GET方法请求。
 - 接口地址: `https://ark.cwuom.love`
 - 测试中，现全面开放，不保证长期可用性，后续也许会添加接口鉴权。
+----
 
-## 调用说明
-### 1. 大图ARK卡片 (`/get_card`)
+# 调用说明
+## 1. 大图ARK卡片 (`/get_card`)
 
 - **接口路径:** `/get_card`
 - **请求方法:** POST / GET
@@ -72,7 +73,7 @@ https://ark.cwuom.love/get_card?title=标题&subtitle=副标题&prompt=卡片外
   }
  ```
 
-### 2. 分享类型ARK卡片 (`/get_card_news`)
+## 2. 分享类型ARK卡片 (`/get_card_news`)
 
 - **接口路径:** `/get_card_news`
 - **请求方法:** POST / GET
@@ -139,7 +140,7 @@ https://ark.cwuom.love/get_card_news?desc=卡片描述&preview=https://api.lyhc.
   }
  ```
 
-### 3. Embed卡片 (`/get_card_embed`)
+## 3. Embed卡片 (`/get_card_embed`)
 
 - **接口路径:** `/get_card_embed`
 - **请求方法:** POST / GET
@@ -206,7 +207,7 @@ https://ark.cwuom.love/get_card_embed?title=embed卡片标题&prompt=外显&thum
   }
   ```
 
-### 4. 小程序ARK卡片 (`/get_miniapp_card`)
+## 4. 小程序ARK卡片 (`/get_miniapp_card`)
 
 - **接口路径:** `/get_miniapp_card`
 - **请求方法:** POST / GET
@@ -290,7 +291,7 @@ https://ark.cwuom.love/get_miniapp_card?prompt=外显&jumpUrl=https://api.lyhc.t
 https://ark.cwuom.love/get_card_embed?title=embed卡片标题&prompt=外显&thumbnailUrl=https://api.lyhc.top/bot/a.jpg&f1=字段1&f2=字段2&f3=字段3&f4=字段4&f5=字段5](https://ark.cwuom.love/get_btn_card?prompt=%E5%95%8A%E5%95%8A&title=%E5%93%88%E5%93%88%E5%93%88&preview=https://tianquan.gtimg.cn/chatBg/item/53693/newPreview2.png&jump=https://www.baidu.com&jumpButton=https://tianquan.gtimg.cn/chatBg/item/53693/newPreview2.png&buttonTitle=%E6%8C%89%E9%92%AE&%20tag=&uin=o2594748568&skey=@rbHjPfTMH&pSkey=rfHjlfTMBiZak42zMo9y2w8Ykhy5Yl8NNgngL09jx6AyiE3IL3L_)https://ark.cwuom.love/get_btn_card?prompt=%E5%95%8A%E5%95%8A&title=%E5%93%88%E5%93%88%E5%93%88&preview=https://tianquan.gtimg.cn/chatBg/item/53693/newPreview2.png&jump=https://www.baidu.com&jumpButton=https://tianquan.gtimg.cn/chatBg/item/53693/newPreview2.png&buttonTitle=%E6%8C%89%E9%92%AE&%20tag=&uin=o2594748568&skey=@rbVlPgTWH&pSkey=BiZakd2zMp9y2w8Ykhy5Yl8NNgngL09jx6AyiE3IL3M_
 ```
 
-### 5. 按钮卡片 (`/get_btn_card`)
+## 5. 按钮卡片 (`/get_btn_card`)
 
 - **接口路径:** `/get_btn_card`
 - **请求方法:** POST / GET
