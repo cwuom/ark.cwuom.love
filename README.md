@@ -12,7 +12,6 @@
   **&gt; 简体中文 &lt;** | [English](README_EN.md)
 </div>
 
-# ARK消息生成接口文档
 ## 接口信息
 ### 本文档提供了ARK消息生成接口的详细说明，支持通过POST和GET方法请求。
 - 接口地址: `https://ark.cwuom.love`
