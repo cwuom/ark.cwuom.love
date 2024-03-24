@@ -207,7 +207,7 @@ https://ark.cwuom.love/get_card_embed?title=Embed card title&prompt=Display&thum
   }
 ```
 
-### 5. Miniapp ARK Card (`/get_miniapp_card`)
+### 4. Miniapp ARK Card (`/get_miniapp_card`)
 
 - **Interface Path:** `/get_miniapp_card`
 - **Request Methods:** POST / GET
@@ -285,7 +285,7 @@ https://ark.cwuom.love/get_miniapp_card?prompt=Display&jumpUrl=https://api.lyhc.
   }
 ```
 
-### 6. Button Card (`/get_btn_card`)
+### 5. Button Card (`/get_btn_card`)
 
 - **Interface Path:** `/get_btn_card`
 - **Request Methods:** POST / GET
